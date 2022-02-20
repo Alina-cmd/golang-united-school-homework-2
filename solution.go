@@ -15,9 +15,9 @@ import (
 const Pi float64 = math.Pi
 
 const (
-	SidesTriangle int = 3
-	SidesSquare   int = 4
-	SidesCircle   int = 0
+	SidesTriangle MyType = 3
+	SidesSquare   MyType = 4
+	SidesCircle   MyType = 0
 )
 
 type MyType int
